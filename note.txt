@@ -1,0 +1,43 @@
+
+
+Khởi tạo dự án tạo folder tạo sẵn trước: npx create-react-app .
+
+Chạy dự án: npm start (đứng tại dự án => folder chứa file package.json)
+
+node_modules: chứa source code của thư viện ( axios , icon,..) / khi push lên git sẽ không được đính kèm vào source code
+
+npm i axios: tải thư viện axios
+
+component ~ function js
+
+component ~ đại diện cho 1 đoạn html trên layout
+
+* Tạo class component : rcc
+* Tạp function component: rfc
+
+*React - Single Page Application SPA 
+
+( 1 file html vừa là Home Page, Login, About,..)
+
+*React ~ Client side (Xử lý bên phía máy của user)
+
+*JSX : html + js
+
+--------------------------------------------
+
+* Data binding: đưa data lên layout / đưa js vào html , binding thông qua dấu {}
+* Binding trực tiếp array lên layout ( render table => array thẻ tr )
+
+* Render(): render jsx lên trang web
+* State {}: quản lý các data ảnh hưởng đến việc render lại layout, chỉ được update thông qua setStage ( state thay đổi thì layout thay đổi)
+* this.setState : update state / trigger re-render
+
+* Key props (render with maps): liên quan đến performance của trang web / dùng id, không nên dùng index
+
+* Virtual dom ~ dom ảo (so sánh dom thật (real dom) và dom ảo (virtual dom))
+
+* Re paint / re render
+
+* props : tương tác giữa 2 component cha và con ( truyền data từ cha xuống con và con sẽ trigger function của cha )
+
+*

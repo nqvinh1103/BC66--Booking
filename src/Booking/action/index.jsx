@@ -1,0 +1,3 @@
+export const TYPE_SELECTED = "SELECTED"
+export const DELETE_SELECTED = "DELETE"
+export const CHARGED_SELECTED = "CHARGE"

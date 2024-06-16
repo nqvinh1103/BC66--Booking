@@ -1,0 +1,11 @@
+1. Set up store 
+
+2. đẩy data từ Component lên redux, lấy data từ redux về Component 
+
+b1: provider
+b2: tạo store
+b3: gọi provider và truyền store vừa tạo vào
+
+reducer : tạo state và nơi code logic update state
+
+conbineReducers: tổng hợp các reducer lại tạo thành rootReducer ( gom các state lại thành 1 state lớn hơn )
